@@ -1,0 +1,41 @@
+{
+  "name": "app-infisio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "keywords": [],
+  "author": "Artur Dolzan Neto",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^6.4.0",
+    "bcrypt-nodejs": "0.0.3",
+    "bluebird": "^3.5.4",
+    "body-parser": "1.18.3",
+    "cors": "2.8.4",
+    "crypto": "^1.0.1",
+    "express": "4.16.3",
+    "express-routes-versioning": "^1.0.1",
+    "find-remove": "^2.0.1",
+    "handlebars": "^4.1.2",
+    "jwt-simple": "0.5.1",
+    "knex": "0.21.5",
+    "knex-oracledb": "^0.11.5",
+    "knex-paginator": "^2.0.0",
+    "moment": "2.22.2",
+    "mongoose": "^5.9.19",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.3.0",
+    "nodemon": "1.18.4",
+    "objection": "2.2.3",
+    "passport": "0.4.0",
+    "passport-jwt": "4.0.0",
+    "pg": "7.4.3",
+    "sharp": "^0.25.4"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  }
+}
